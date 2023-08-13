@@ -1,0 +1,264 @@
+nav {
+  display: flex;
+  justify-content: center;
+  border-top: solid 4px #F8EAD8;
+  font-family: 'Playfair Display', serif;
+  padding: 5px;
+  }
+
+  .zag {
+    padding: 35px;
+  }
+  .menu1 {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  }
+  body {
+  margin: 0;
+  }       
+  .belfon {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  opacity:calc(75%);
+  font-family: 'Playfair Display', serif;
+  }
+
+  .posh {
+    text-align: justify;
+    text-indent: 25px;
+    }
+  .pudra {
+  background-color: #F8EAD8;
+  }
+  .ctr {
+  font-size: 20px;
+  padding: 25px;
+  }
+  .ctr:hover hover {
+  background-color: #F56D91;
+  }
+  .cvet:hover {
+  color: white;
+  }
+  .cvet {
+  text-decoration: none;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  }
+
+  .cvet1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    }
+  p, H2, h3, ul, ol {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  }
+
+  .belb {
+  color: white;
+  }
+
+  .containere {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    }
+
+    .bottom-right1 {
+      position: absolute;
+      bottom: 56px;
+      right: 16px;
+      color: black;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .bottom-right2 {
+    position: absolute;
+    bottom: 36px;
+    right: 16px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+      .bottom-right3 {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #myVideo {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 55px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .persik {
+      color: #955956;
+    }
+  
+    #demo {
+        text-align: center;
+        font-size: 50px;
+        margin-top:0px;
+        font-family: 'Playfair Display', serif;
+      }
+  
+      * {box-sizing: border-box}
+      body {font-family: 'Playfair Display', serif; margin:0}
+      
+      .slideshow-container {
+        position: relative;
+        background: #F8EAD8;
+      }
+      
+      .mySlides {
+        display: none;
+        padding: 50px;
+        text-align: center;
+      }
+      
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      
+      .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+     
+      .prev:hover, .next:hover {
+        background-color: rgba(105, 104, 104, 0.8);
+        color: white;
+      }
+      
+      
+      .dot-container {
+          text-align: center;
+          padding: 20px;
+          background: #F8EAD8;
+      }
+      
+       .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+     
+      .active, .dot:hover {
+        background-color: white;
+      }
+      
+      
+      q {font-size: x-large;}
+      
+      
+      .author {color: rgb(0, 1, 2); font-size: large; margin-top: 20px;}
+
+
+  @media all and (max-width:800px) {
+  
+        nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        padding: 0px;
+        }
+
+      
+      .text {
+        flex-direction: column;
+      }
+      
+      h2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .zag {
+        padding: 8px;
+      }
+
+      .proba {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      .posh {
+        font-size: 15px;
+        padding: 10px;
+        }
+
+        .ps {
+          padding-right: 15px;
+        }
+
+        .centered {
+          font-size: 35px;
+          top: 50%;
+          left: 50%;
+        }
+      
+        .bottom-right1 {
+          display: none;
+        
+      }
+    
+      .bottom-right2 {
+        display: none;
+
+    }
+          .bottom-right3 {
+            display: none;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        .blin {
+          display: none;
+        }
+
+        .mobil {
+          padding-left: 35px;
+          padding-right: 35px;;
+        }
+  }
